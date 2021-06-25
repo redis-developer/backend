@@ -1,12 +1,21 @@
 {
     "app_name": "Spatial.dj",
     "description": "A Web application that allows you to listen to music with your friends! powered by RedisJSON + RediSearch",
-    "rank": 82,
+    "rank": "82",
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/backend",
     "download_url": "https://github.com/redis-developer/backend",
     "hosted_url": "spatial.francochen.com",
+    "quick_deploy": "true",
+    "deploy_buttons": [
+        {
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/backend.git" 
+        },
+        {
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/backend.git" 
+        }
+    ],
     "language": ["JavaScript"],
     "redis_commands": ["HGET", "HSET", "EXISTS", "FT.SEARCH", "RPUSH", "LRANGE", "LREM", "LMOVE", "SET", "GET", "JSON.SET", "JSON.GET", "LPUSH", "DEL", "JSON.ARRAPPEND", "JSON.ARRPOP"],
     "redis_features": ["caching", "database"],
@@ -18,9 +27,9 @@
         "https://i.imgur.com/vRLTaM2.png",
         "https://i.imgur.com/7LEio8z.png",
         "https://i.imgur.com/e7jAhY5.png",
-        "https://raw.githubusercontent.com/spatialdj/backend/master/ArchitectureDiagram.jpg"
+        "https://raw.githubusercontent.com/redis-developer/backend/master/ArchitectureDiagram.jpg"
     ],
-    "youtube_url": "",
+    "youtube_url": "https://www.youtube.com/watch?v=qpOGIA4jPNw",
     "special_tags": ["Hackathon", "Build on Redis Hackathon"],
     "verticals": ["Technology", "Education"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/backend/master/README.md"
