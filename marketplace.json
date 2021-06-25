@@ -15,7 +15,7 @@
         {
             "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/backend.git" 
         }
-    ],
+       ],
     "language": ["JavaScript"],
     "redis_commands": ["HGET", "HSET", "EXISTS", "FT.SEARCH", "RPUSH", "LRANGE", "LREM", "LMOVE", "SET", "GET", "JSON.SET", "JSON.GET", "LPUSH", "DEL", "JSON.ARRAPPEND", "JSON.ARRPOP"],
     "redis_features": ["caching", "database"],
