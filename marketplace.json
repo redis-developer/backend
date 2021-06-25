@@ -1,12 +1,11 @@
 {
     "app_name": "Spatial.dj",
     "description": "A web application that allows you to listen to music with your friends!",
-    "hidden": true,
-    "rank": 21,
+    "rank": 82,
     "type": "Full App",
     "contributed_by": "Community",
-    "repo_url": "https://github.com/spatialdj/backend",
-    "download_url": "https://github.com/spatialdj/backend",
+    "repo_url": "https://github.com/redis-developer/backend",
+    "download_url": "https://github.com/redis-developer/backend",
     "hosted_url": "spatial.francochen.com",
     "language": ["JavaScript"],
     "redis_commands": ["HGET", "HSET", "EXISTS", "FT.SEARCH", "RPUSH", "LRANGE", "LREM", "LMOVE", "SET", "GET", "JSON.SET", "JSON.GET", "LPUSH", "DEL", "JSON.ARRAPPEND", "JSON.ARRPOP"],
@@ -24,5 +23,5 @@
     "youtube_url": "",
     "special_tags": ["Hackathon", "Build on Redis Hackathon"],
     "verticals": ["Technology", "Education"],
-    "markdown": "https://raw.githubusercontent.com/spatialdj/backend/master/README.md"
+    "markdown": "https://raw.githubusercontent.com/redis-developer/backend/master/README.md"
 }
