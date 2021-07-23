@@ -5,7 +5,7 @@
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/backend",
-    "download_url": "https://github.com/redis-developer/backend",
+    "download_url": "https://github.com/redis-developer/backend/archive/refs/heads/master.zip",
     "hosted_url": "spatial.francochen.com",
     "quick_deploy": "false",
     "deploy_buttons": [
