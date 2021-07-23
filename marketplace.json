@@ -1,7 +1,6 @@
 {
     "app_name": "Spatial.dj",
     "description": "A Web application that allows you to listen to music with your friends! powered by RedisJSON + RediSearch",
-    "hidden": "true",
     "rank": "82",
     "type": "Full App",
     "contributed_by": "Community",
