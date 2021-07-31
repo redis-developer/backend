@@ -5,6 +5,7 @@
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/backend",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/backend/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/backend/archive/refs/heads/master.zip",
     "hosted_url": "spatial.francochen.com",
     "quick_deploy": "false",
