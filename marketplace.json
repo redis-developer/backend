@@ -3,17 +3,17 @@
     "description": "A Web application that allows you to listen to music with your friends! powered by RedisJSON + RediSearch",
     "type": "Full App",
     "contributed_by": "Community",
-    "repo_url": "https://github.com/redis-developer/spatial-backend",
-    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/spatial-backend/master/images/app_preview_image.png",
-    "download_url": "https://github.com/redis-developer/spatial-backend/archive/refs/heads/master.zip",
+    "repo_url": "https://github.com/redis-developer/spatialdj-backend",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/spatialdj-backend/master/images/app_preview_image.png",
+    "download_url": "https://github.com/redis-developer/spatialdj-backend/archive/refs/heads/master.zip",
     "hosted_url": "",
     "quick_deploy": "false",
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/spatial-backend.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/spatialdj-backend.git" 
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/spatial-backend.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/spatialdj-backend.git" 
         }
        ],
     "language": ["JavaScript"],
@@ -27,10 +27,10 @@
         "https://i.imgur.com/vRLTaM2.png",
         "https://i.imgur.com/7LEio8z.png",
         "https://i.imgur.com/e7jAhY5.png",
-        "https://raw.githubusercontent.com/redis-developer/spatial-backend/master/ArchitectureDiagram.jpg"
+        "https://raw.githubusercontent.com/redis-developer/spatialdj-backend/master/ArchitectureDiagram.jpg"
     ],
     "youtube_url": "https://www.youtube.com/watch?v=qpOGIA4jPNw",
     "special_tags": ["Hackathon"],
     "verticals": ["Retail"],
-    "markdown": "https://raw.githubusercontent.com/redis-developer/spatial-backend/master/README.md"
+    "markdown": "https://raw.githubusercontent.com/redis-developer/spatialdj-backend/master/README.md"
 }
