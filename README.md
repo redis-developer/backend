@@ -29,14 +29,14 @@ THIS README TEMPLATE WAS ADAPTED FROM https://github.com/othneildrew/Best-README
 
 ![SpatialDjLogo](https://avatars.githubusercontent.com/u/83042272)
 # Spatial Dj
-- [View Demo](http://spatial.francochen.com)
-- [Report Bug](https://github.com/spatialdj/backend/issues)
-- [Request Feature](https://github.com/spatialdj/backend/issues)
-- [Frontend Repo](https://github.com/spatialdj/frontend)
+
+- [Frontend Repo](https://github.com/redis-developer/spatialdj-frontend)
+- [Backend Repo](https://github.com/redis-developer/spatialdj-backend)
 
 ![SpatialDjHomepage](https://i.imgur.com/0GdOVn7.png)
 
 ## Tech Stack
+
 - Frontend: JavaScript, React, Chakra UI, Redux, Socket.io Client, Axios
 - Backend: JavaScript, Node.js, Express, Redis (node-redis), Socket.io
 
