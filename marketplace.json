@@ -21,7 +21,7 @@
     "redis_features": ["Caching"],
     "redis_modules": ["RedisJSON", "RediSearch"],
     "app_image_urls": [],
-    "youtube_url": "https://www.youtube.com/watch?v=qpOGIA4jPNw",
+    "youtube_url": "https://www.youtube.com/watch?v=GHf4Ngl6Qfk",
     "special_tags": ["Hackathon"],
     "verticals": ["Retail"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/spatialdj-backend/master/README.md"
