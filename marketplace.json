@@ -1,6 +1,6 @@
 {
     "app_name": "Spatial.dj",
-    "description": "A Web application that allows you to listen to music with your friends! powered by RedisJSON + RediSearch",
+    "description": "A Web application that allows you to share music with your friends using RedisJSON and RediSearch",
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/spatialdj-backend",
