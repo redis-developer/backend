@@ -4,7 +4,7 @@
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/spatialdj-backend",
-    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/spatialdj-backend/master/images/app_preview_image.png",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/spatialdj-backend/master/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/spatialdj-backend/archive/refs/heads/master.zip",
     "hosted_url": "",
     "quick_deploy": "false",
