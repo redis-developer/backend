@@ -20,15 +20,7 @@
     "redis_commands": ["HGET", "HSET", "EXISTS", "FT.SEARCH", "RPUSH", "LRANGE", "LREM", "LMOVE", "SET", "GET", "JSON.SET", "JSON.GET", "LPUSH", "DEL", "JSON.ARRAPPEND", "JSON.ARRPOP"],
     "redis_features": ["Caching"],
     "redis_modules": ["RedisJSON", "RediSearch"],
-    "app_image_urls": [
-        "https://avatars.githubusercontent.com/u/83042272",
-        "https://i.imgur.com/0GdOVn7.png",
-        "https://i.imgur.com/4QM7EIu.png",
-        "https://i.imgur.com/vRLTaM2.png",
-        "https://i.imgur.com/7LEio8z.png",
-        "https://i.imgur.com/e7jAhY5.png",
-        "https://raw.githubusercontent.com/redis-developer/spatialdj-backend/master/ArchitectureDiagram.jpg"
-    ],
+    "app_image_urls": [],
     "youtube_url": "https://www.youtube.com/watch?v=qpOGIA4jPNw",
     "special_tags": ["Hackathon"],
     "verticals": ["Retail"],
