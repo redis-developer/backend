@@ -30,8 +30,6 @@ THIS README TEMPLATE WAS ADAPTED FROM https://github.com/othneildrew/Best-README
 ![SpatialDjLogo](https://avatars.githubusercontent.com/u/83042272)
 # Spatial Dj
 
-- [Frontend Repo](https://github.com/redis-developer/spatialdj-frontend)
-- [Backend Repo](https://github.com/redis-developer/spatialdj-backend)
 
 ![SpatialDjHomepage](https://i.imgur.com/0GdOVn7.png)
 
@@ -46,6 +44,9 @@ Redis is used as both a cache and a database.
 Here is a video showcasing the features of `Spatial.dj` (click the image to watch on YouTube):
 
 [![SpatialDjVideo](https://img.youtube.com/vi/qpOGIA4jPNw/0.jpg)](https://www.youtube.com/watch?v=qpOGIA4jPNw)
+
+- [Frontend Repo](https://github.com/redis-developer/spatialdj-frontend)
+- [Backend Repo](https://github.com/redis-developer/spatialdj-backend)
 
 An overview of the core systems is given below:
 
