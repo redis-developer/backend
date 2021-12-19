@@ -41,10 +41,6 @@ THIS README TEMPLATE WAS ADAPTED FROM https://github.com/othneildrew/Best-README
 ## How it works
 Redis is used as both a cache and a database.
 
-Here is a video showcasing the features of `Spatial.dj` (click the image to watch on YouTube):
-
-[![SpatialDjVideo](https://img.youtube.com/vi/qpOGIA4jPNw/0.jpg)](https://www.youtube.com/watch?v=qpOGIA4jPNw)
-
 - [Frontend Repo](https://github.com/redis-developer/spatialdj-frontend)
 - [Backend Repo](https://github.com/redis-developer/spatialdj-backend)
 
