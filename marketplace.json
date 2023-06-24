@@ -1,6 +1,6 @@
 {
     "app_name": "Spatial.dj",
-    "description": "A Web application that allows you to share music with your friends using RedisJSON and RediSearch",
+    "description": "A Web application that allows you to share music with your friends using Redis JSON and Search",
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/spatialdj",
@@ -10,16 +10,16 @@
     "quick_deploy": "false",
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/spatialdj.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/spatialdj.git"
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/spatialdj.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/spatialdj.git"
         }
        ],
     "language": ["JavaScript"],
     "redis_commands": ["HGET", "HSET", "EXISTS", "FT.SEARCH", "RPUSH", "LRANGE", "LREM", "LMOVE", "SET", "GET", "JSON.SET", "JSON.GET", "LPUSH", "DEL", "JSON.ARRAPPEND", "JSON.ARRPOP"],
-    "redis_features": ["Caching"],
-    "redis_modules": ["RedisJSON", "RediSearch"],
+    "redis_use_cases": ["Caching"],
+    "redis_features": ["JSON", "Search and Query"],
     "app_image_urls": [],
     "youtube_url": "https://www.youtube.com/watch?v=GHf4Ngl6Qfk",
     "special_tags": ["Hackathon"],
