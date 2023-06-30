@@ -88,13 +88,13 @@ The following image illustrates the architecture of `Spatial.dj`. Clients commun
   - Fields:
     - `messages`: redis key to messages to this room
     - `id`: id of this room
-    - `json`: JSON representation of this room (used because RediSearch does not support JSON yet)
+    - `json`: JSON representation of this room (used becauseRedis Searchdoes not support JSON yet)
     - `numMembers`: the number of members currently in the room
     - `description`: the description of the room
     - `name`: the name of the room
     - `private`: (true | false) whether the room is searchable
     - `genres`: genres the room is geared towards
-  - Indices (RediSearch):
+  - Indices (Redis Search):
     - `name`: `TEXT`
     - `description`: `TEXT`
     - `genres`: `TAG`
@@ -186,28 +186,28 @@ The following image illustrates the architecture of `Spatial.dj`. Clients commun
 
 ### Data flow
 - For users:
-  - When a user registers, a user is created like: 
+  - When a user registers, a user is created like:
     - `JSON.SET user:${username} . ${userJson}`
-  - To log a user in, a new session is created: 
+  - To log a user in, a new session is created:
     - `SET sess:${sessionId} ${data}`
-  - To retrieve user information: 
+  - To retrieve user information:
     - `JSON.GET user:${username} ${path}`
 - For sockets:
-  - When a new socket is connected to the server and the request is authenticated (user is logged in), a new socket is created and the associated username is stored: 
+  - When a new socket is connected to the server and the request is authenticated (user is logged in), a new socket is created and the associated username is stored:
     - `SET socket:${socketId} ${username}`
   - When a socket is disconnected from the server, it is deleted:
     - `DEL socket:${socketId}`
 - For rooms:
-  - When a room is searched for, RedisSearch is used to make the search: 
+  - When a room is searched for, Redis Search is used to make the search:
     - `FT.SEARCH @name|description:(${searchQuery}) @private:{false} @genres:{${genres}} SORTBY numMembers DESC LIMIT ${offset} ${limit}`
-  - When a new room is created, a room is created like: 
+  - When a new room is created, a room is created like:
     - `HSET room:${roomId} id ${roomId} name ${name} description ${description} private ${private} genres ${genres} numMembers ${numMembers} json ${roomJson}`
-  - When a room is updated, it is updated like (all fields are optional): 
+  - When a room is updated, it is updated like (all fields are optional):
     - `HSET room:${roomId} id ${roomId} name ${name} description ${description} private ${private} genres ${genres} numMembers ${numMembers} json ${roomJson}`
 - For queues:
-  -  When a user joins the queue, a queue is created/the user is added to the queue: 
+  -  When a user joins the queue, a queue is created/the user is added to the queue:
      -  `RPUSH queue:${roomId} ${username}`
-  -  When it is a user's turn to play a song, the user is moved to the end of the queue: 
+  -  When it is a user's turn to play a song, the user is moved to the end of the queue:
      -  `LMOVE queue:${roomId} queue:${roomId} LEFT RIGHT`
   -  At the same time, the song played is moved to the end of the user's playlist:
      -  `song = JSON.ARRPOP user:${username} .playlist.${playlistId}.queue 0`
@@ -246,7 +246,7 @@ try {
 ### Prerequisites:
 - Node v14.16.1
 - npm v6.14.12
-- Redis v6.2.3 with RediSearch v2.0 and RedisJSON v1.0
+- Redis v6.2.3 withRedis Searchv2.0 and Redis JSON v1.0
 
 We used the [RedisMod](https://github.com/RedisLabsModules/redismod) Docker image to setup our Redis modules.
 
